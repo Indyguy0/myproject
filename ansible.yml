@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+  - name: creating a new file with content
+    copy:
+      dest: "/your path"
+      content:
+        line 01
+        line 02
